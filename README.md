@@ -14,7 +14,7 @@ This code is based on Python3.8 and Pytorch 1.12. Other packages in `requirement
 
 ## Features
 
-For the multimodal features, please refer to [official support](https://www.muse-challenge.org/challenge/data). An extended of the visiual features (VTP, APViT) please see the extral_features folder. Please put the extral features in the same directory as the official features.
+For the multimodal features, please refer to [official support](https://www.muse-challenge.org/challenge/data). An extended of the visiual features (VTP) please see the extral_features folder. Please put the extral features in the same directory as the official features.
 The detail feature extractor for VPT refering to [this link](https://github.com/KMnP/vpt), APViT refering to [this link](https://github.com/youqingxiaozhua/APViT).
 
 ## Training
