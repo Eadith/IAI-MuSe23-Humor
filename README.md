@@ -1,6 +1,6 @@
 # JTMA-MuSe2023-Humor Detection
 
-This is the source code for paper
+This is the source code for the paper
 
 [JTMA: Joint Multimodal Feature Fusion and Temporal Multi-head Attention for Humor Detection.](https://doi.org/10.1145/3606039.3613112) </br>
 Qi Li, Yangyang Xu, Zhuoer Zhao, Shulei Tang, Feixiang Zhang, Ruotong Wang, Xiao Sun, Meng Wang </br>
@@ -14,11 +14,11 @@ This code is based on Python3.8 and Pytorch 1.12. Other packages in `requirement
 
 ## Features
 
-For the multimodal features, please refer to [official support](https://www.muse-challenge.org/challenge/data). An extended of the visiual features (VTP) please see the extral_features folder. Please put the extral features in the same directory as the official features.
-The detail feature extractor for VPT refering to [this link](https://github.com/KMnP/vpt), APViT refering to [this link](https://github.com/youqingxiaozhua/APViT).
+For the multimodal features, please refer to [official support](https://www.muse-challenge.org/challenge/data). An extension of the visual features (VTP). Please put the extra features in the same directory as the official features.
+The detail feature extractor for VPT referring to [this link](https://github.com/KMnP/vpt), APViT referring to [this link](https://github.com/youqingxiaozhua/APViT).
 
 ## Training
-This code support all the network structures and losses. You need to adjust the `config.BASE_PATH` and model save path `config.OUTPUT_PATH` in `config.py` and training parameters in `main.py` file. Then you can first run the `main.py` to train five models with different seeds, and then run the `late_fusion.py` file to fuse the results.
+This code supports all the network structures and losses. You need to adjust the `config.BASE_PATH` and model save path `config.OUTPUT_PATH` in `config.py` and training parameters in `main.py` file. Then you can first run the `main.py` to train five models with different seeds, and then run the `late_fusion.py` file to fuse the results.
 
 ## Contact
 If you have any problems or any further interesting ideas with this project, feel free to contact me (yangyangxu@mail.ustc.edu.cn or liqi@stu.ahu.edu.cn).
